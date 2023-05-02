@@ -9,8 +9,10 @@ def main(a):
     if a>0:
 
       return a+1
+    else:
+       return a
 
 
 
-v = main(1)
+v = main(-5)
 print(v)
