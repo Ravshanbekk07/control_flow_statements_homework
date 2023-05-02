@@ -1,4 +1,4 @@
-def main(a):
+def main(b):
     """
     Given an integer a, check the following conditions:
     "positive odd number",
@@ -12,4 +12,18 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+
+    # if a > 0 and a%2:
+    #    return 'positive odd number'
+
+    
+    
+    
+    if b<0 and (b+48)%2 ==0:
+        print('negative even number')
+    
+    return 
+    
+
+v = main(-24)
+print(v)
