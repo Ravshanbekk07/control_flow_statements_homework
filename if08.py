@@ -1,14 +1,21 @@
 def main(a):
-    """
-    Given an integer a, check the following conditions:
-    "two-digit odd number",
-    "two-digit even number",
-    "three-digit odd number",
-    "three-digit even number"
+    # if a >9 and a <100:
+    #      if a%2 == 0:
+              
+    
+    #       print('two-digit number')
+    if a<0 and 100<a:
+       if a>1000:
+         if a*(-1)%2 == 0:
+          print('3 digit eve number')
+       print('3 digit eveen number')
+    print('3 digit eveen number')
+    
+    
+        
+    
 
-    Args:
-        a: integer
-    Returns:
-        string: the message to print
-    """
     return
+
+v = main(-123)
+print(v)
