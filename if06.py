@@ -13,4 +13,18 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    p = 0
+    if a>0:
+        p+=1
+
+    if b>0:
+        p+=1
+        
+    if c>0:
+        p+=1
+    if p > 1:
+      return 'there are lots of positives'
+
+
+v = main(-2,4,1)
+print(v)
