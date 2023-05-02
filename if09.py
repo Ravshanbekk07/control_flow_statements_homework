@@ -9,4 +9,15 @@ def main(a):
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
-    return
+    x1= 5
+    x2=7*10
+    x3 = x2+x1
+    
+    if x3<=a:
+      print("True")
+    else:
+       return False
+
+
+v = main(57)
+print(v)
